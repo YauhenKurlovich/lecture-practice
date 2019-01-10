@@ -28,6 +28,12 @@ text1.className = "imageText";
 text1.innerHTML = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ";
 document.getElementById("fe1").appendChild(text1);
 
+var button = document.createElement('button');
+button.className = "buttonOnCard";
+button.textContent = "Try";
+document.getElementById("fe1").appendChild(button);
+
+
 var flexEl2 = document.createElement('div');
 flexEl2.className = "flex-item";
 flexEl2.id = "fe2";
@@ -47,6 +53,11 @@ var text2 = document.createElement('p');
 text2.className = "imageText";
 text2.innerHTML = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ";
 document.getElementById("fe2").appendChild(text2);
+
+var button2 = document.createElement('button');
+button2.className = "buttonOnCard";
+button2.textContent = "Try";
+document.getElementById("fe2").appendChild(button2);
 
 var flexEl3 = document.createElement('div');
 flexEl3.className = "flex-item";
@@ -68,6 +79,10 @@ text3.className = "imageText";
 text3.innerHTML = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ";
 document.getElementById("fe3").appendChild(text3);
 
+var button3 = document.createElement('button');
+button3.className = "buttonOnCard";
+button3.textContent = "Try";
+document.getElementById("fe3").appendChild(button3);
 
 var flexRow2 = document.createElement('div');
 flexRow2.className = "row";
@@ -95,6 +110,10 @@ text4.className = "imageText";
 text4.innerHTML = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ";
 document.getElementById("fe4").appendChild(text4);
 
+var button4 = document.createElement('button');
+button4.className = "buttonOnCard";
+button4.textContent = "Try";
+document.getElementById("fe4").appendChild(button4);
 
 var flexEl5 = document.createElement('div');
 flexEl5.className = "flex-item";
@@ -116,6 +135,11 @@ text5.className = "imageText";
 text5.innerHTML = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ";
 document.getElementById("fe5").appendChild(text5);
 
+var button5 = document.createElement('button');
+button5.className = "buttonOnCard";
+button5.textContent = "Try";
+document.getElementById("fe5").appendChild(button5);
+
 var flexEl6 = document.createElement('div');
 flexEl6.className = "flex-item";
 flexEl6.id = "fe6";
@@ -135,3 +159,8 @@ var text6 = document.createElement('p');
 text6.className = "imageText";
 text6.innerHTML = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ";
 document.getElementById("fe6").appendChild(text6);
+
+var button6 = document.createElement('button');
+button6.className = "buttonOnCard";
+button6.textContent = "Try";
+document.getElementById("fe6").appendChild(button6);
