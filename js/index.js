@@ -129,7 +129,7 @@ document.getElementById("fe6").appendChild(img6);
 var textOnImage6 = document.createElement('p');
 textOnImage6.className = "imageOnText";
 textOnImage6.innerHTML = "LeverX International";
-document.getElementById("fe6").appendChild(textOnImage);
+document.getElementById("fe6").appendChild(textOnImage6);
 
 var text6 = document.createElement('p');
 text6.className = "imageText";
