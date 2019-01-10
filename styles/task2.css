@@ -1,0 +1,73 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+}
+
+.scrollList {
+    overflow: scroll;
+    visibility: hidden;
+}
+
+.scrollList-content,
+.scrollList:hover {
+    visibility: visible;
+}
+
+.scrollList-item {
+    display: flex;
+    padding: 5px;
+    height: auto;
+}
+
+.scrollList-item:hover {
+    background-color: blueviolet;
+}
+
+.photo {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    border-radius: 60%;
+}
+
+.username {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    width: 100%;
+    height: inherit;
+    justify-content: center;
+}
+
+.message {
+    height: auto;
+    display: flex;
+    padding: 3px;
+}
+
+.messagePhoto {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    border-radius: 60%;
+}
+
+.messageText {
+    background-color: blueviolet;
+    padding: 5%;
+    margin-left: 5%;
+    border-radius: 70px;
+    font-size: 20px;
+    color: white;
+}
+
+* {
+    margin: 0px;
+    height: 100%;
+}
+
+body {
+    background-color: black;
+}
