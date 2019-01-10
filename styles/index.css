@@ -134,7 +134,7 @@ input {
     flex-direction: column;
     width: 100%;
     position: relative;
-    height: 89%;
+    height: 100%;
 }
 
 .row {
@@ -169,7 +169,7 @@ input {
     background-color: gray;
     color: white;
     text-align: left;
-    height: 50%;
+    height: 60%;
     width: 100%;
     position: relative;
 }
