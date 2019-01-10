@@ -1,0 +1,180 @@
+body {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+}
+
+a {
+    display: block;
+    color: indigo;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.flex-menu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+}
+
+.left {
+    display: flex;
+    height: 100%;
+    width: 60%;
+    flex-direction: row;
+}
+
+
+.right {
+    display: flex;
+    height: 100%;
+    width: 40%;
+    flex-direction: row;
+}
+
+input {
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: gray;
+    height: 25px;
+    width: 190px;
+    position: relative;
+    border-radius: 6px;
+    margin-left: 8%;
+}
+
+.info {
+    height: 70%;
+    width: 30%;
+    border-width: 0 0 0 3px;
+    border-style: solid;
+    color: gray;
+    border-color: gray;
+    margin-left: 2%;
+    padding-left: 4%;
+    position: relative;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 6;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    width: 410px;
+    height: 200px;
+    flex-direction: column;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.but {
+    color: indigo;
+    background-color: transparent;
+    border: 0px;
+    font-size: 20px;
+}
+
+.office {
+    display: block;
+    background-color: aliceblue;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    height: 89%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin: 1% 1% 1% 1%;
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+    margin-right: 1%;
+    position: relative;
+    width: 31%;
+    height: 100%;
+}
+
+.imageOnText {
+    position: absolute;
+    color: black;
+    background-color: beige;
+}
+
+.imageText {
+    background-color: gray;
+    color: white;
+    text-align: left;
+    height: 50%;
+    width: 100%;
+    position: relative;
+    transform: translateY(12.5%);
+}
+
+.card {
+    width: 100%;
+    height: 65%;
+    border-radius: 8px;
+    position: relative;
+}
