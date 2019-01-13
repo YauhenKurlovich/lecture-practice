@@ -9,9 +9,20 @@
     visibility: hidden;
 }
 
+.scrollList-item-fix,
 .scrollList-content,
 .scrollList:hover {
     visibility: visible;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 10%;
+    border: solid;
+    border-color: blueviolet;
+    border-radius: 50px;
+    margin-bottom: 2%;
 }
 
 .scrollList-item {
@@ -20,8 +31,20 @@
     height: auto;
 }
 
+.scrollList-item-fix {
+    display: fixed;
+    height: auto;
+    background-color: blueviolet;
+    border-radius: 70px;
+}
+
 .scrollList-item:hover {
     background-color: blueviolet;
+}
+
+.testText {
+    color: white;
+    font-size: 30px;
 }
 
 .photo {
@@ -33,12 +56,12 @@
 
 .username {
     display: flex;
-    align-items: center;
+    align-items: top;
     font-size: 30px;
     color: white;
     width: 100%;
     height: inherit;
-    justify-content: center;
+    justify-content: top;
 }
 
 .message {
